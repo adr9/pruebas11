@@ -17,8 +17,8 @@ class Partner(models.Model):
     def create(self, vals):
         res = super(Partner, self).create(vals)
 
-        access_key_id = "AKIAJL7YPMKZ2LEZ6MRQ"
-        secret_key = "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"
+        access_key_id = "AKIAJVKP7YWONOJK6OQQ"
+        secret_key = "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"
         bucket_name = 'alfa10'
         filename = 'file.txt'
 
