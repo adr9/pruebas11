@@ -30,3 +30,23 @@ class Partner(models.Model):
         object2.put(Body=some_binary_data)
 
         return res
+
+    @api.model
+    def write(self, vals):
+        res = super(Partner, self).write(vals)
+
+        access_key_id = "AKIAJVKP7YWONOJK6OQQ"
+        secret_key = "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"
+        bucket_name = 'alfa10'
+        filename = 'file.txt'
+
+        session = boto3.Session(access_key_id, secret_key)
+        s3 = session.resource('s3')
+
+        s3_key = s3.Object(bucket_name, filename)
+        _logger.warning(s3_key)
+        read = s3_key.get()['Body'].read()
+        _logger.warning(read)
+
+
+        return res

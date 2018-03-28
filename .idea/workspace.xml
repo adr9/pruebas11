@@ -43,8 +43,8 @@
       <file leaf-file-name="res_partner.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/amazons3/models/res_partner.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="20" column="63" selection-start-line="20" selection-start-column="63" selection-end-line="20" selection-end-column="63" />
+            <state relative-caret-position="509">
+              <caret line="40" column="29" selection-start-line="40" selection-start-column="29" selection-end-line="40" selection-end-column="29" />
               <folding>
                 <element signature="e#65#79#0" expanded="true" />
               </folding>
@@ -201,8 +201,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/amazons3/models/res_partner.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="63" selection-start-line="20" selection-start-column="63" selection-end-line="20" selection-end-column="63" />
+        <state relative-caret-position="509">
+          <caret line="40" column="29" selection-start-line="40" selection-start-column="29" selection-end-line="40" selection-end-column="29" />
           <folding>
             <element signature="e#65#79#0" expanded="true" />
           </folding>
